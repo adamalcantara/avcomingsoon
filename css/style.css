@@ -10,7 +10,7 @@ body {
 
 .slider {
     width: 800px;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -42,4 +42,20 @@ body {
     margin-top: -40px;
     display: flex;
     justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: red;
 }
