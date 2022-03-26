@@ -45,7 +45,7 @@ body {
 }
 
 .manual-btn {
-    border: 2px solid red;
+    border: 2px solid white;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -57,5 +57,31 @@ body {
 }
 
 .manual-btn:hover {
-    background-color: red;
+    background-color: white;
 }
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -80%;
+}
+
+#radio6:checked ~ .first {
+    margin-left: -100%;
+}
+
+/* automatic navigation */
