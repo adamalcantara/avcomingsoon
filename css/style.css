@@ -12,6 +12,14 @@ h1 {
     font-weight: 700;
     font-size: 70px;
     text-align: center;
+    margin: 30px auto 15px auto;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin: 15px auto 30px auto;
 }
 
 .mySlides {
