@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A.V. Alcantara Photography</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- <h1>Coming Soon</h1> -->
+    <h1>Coming Soon</h1>
     <div class="slideshow-container">
         <div class="mySlides fade">
             <div class="numbertext">1 / 6</div>
             <img src="./img/1.jpg" style="width: 100%" alt="">
-            <div class="text">Caption text</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">2 / 6</div>
             <img src="./img/2.jpg" style="width: 100%" alt="">
-            <div class="text">Caption text</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">3 / 6</div>
             <img src="./img/3.jpg" style="width: 100%" alt="">
-            <div class="text">Caption text</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">4 / 6</div>
             <img src="./img/4.jpg" style="width: 100%" alt="">
-            <div class="text">Caption text</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">5 / 6</div>
             <img src="./img/5.jpg" style="width: 100%" alt="">
-            <div class="text">Caption text</div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">6 / 6</div>
             <img src="./img/6.jpg" style="width: 100%" alt="">
-            <div class="text">Caption text</div>
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br>
-    
-    <div style="text-align: center">
+
+    <!-- <div style="text-align: center">
         <span class="dot" onclick="currentSlides(1)"></span>
         <span class="dot" onclick="currentSlides(2)"></span>
         <span class="dot" onclick="currentSlides(3)"></span>
         <span class="dot" onclick="currentSlides(4)"></span>
         <span class="dot" onclick="currentSlides(5)"></span>
         <span class="dot" onclick="currentSlides(6)"></span>
-    </div>
-    
+    </div> -->
+
+    <p id="info">Thank you for visiting! Our website is currently under construction.
+        <br></br>
+        We are A.V. Alcantara Photography, a husband and wife photography team based in Orlando. We specialize in
+        headshots, elopements, and portraits.
+
+        <br></br>
+        Please contact us below for more information.
+    </p>
+
+    <form action="https://formspree.io/f/moqyndap" method="POST">
+        <label class="formsection">
+            Your email:
+            <input type="email" name="email">
+        </label>
+        <label class="formsection">
+            Your message:
+            <textarea name="message" id="formtext"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit" id="submitbtn">Send</button>
+    </form>
+
     <script src="./js/script.js"></script>
 </body>
+
 </html>

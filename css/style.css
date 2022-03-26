@@ -3,7 +3,15 @@
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
 }
 
 .mySlides {
@@ -92,6 +100,47 @@ img {
 @keyframes fade {
     from {opacity: .4}
     to{opacity: 1}
+}
+
+#info {
+    font-size: 25px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.formsection {
+    display: flex;
+    flex-direction: column;
+}
+
+#formtext {
+    height: 100px;
+}
+
+#submitbtn {
+    margin-top: 20px;
+    height: 30px;
+    width: 65px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+#submitbtn:hover {
+    cursor: pointer;
 }
 
 /* responsive */
